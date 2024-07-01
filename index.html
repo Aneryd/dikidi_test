@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Логин</title>
+        <link
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <style>
+            .color {
+                background-color: #f7f7f7;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+
+            .flex-container {
+                display: flex;
+                justify-content: center;
+                height: 100vh;
+                align-items: center;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="flex-container">
+                <div class="col-xs-12 col-sm-8 col-md-6 mx-auto color">
+                    <h2 class="text-center">Авторизация</h2>
+                    <h6 class="text-center">Пожалуйста авторизуйтесь</h6>
+                    <form>
+                        <div class="form-group">
+                            <label for="login">Логин</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="login"
+                                placeholder="Введите логин"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Пароль</label>
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="password"
+                                placeholder="Введите пароль"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    id="pk_check"
+                                />
+                                <label class="form-check-label" for="pk_check"
+                                    >Чужой ПК</label
+                                >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button
+                                type="submit"
+                                class="btn btn-primary btn-block p-10"
+                            >
+                                Войти
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
