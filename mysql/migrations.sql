@@ -1,5 +1,3 @@
-DROP TABLE IF EXISTS motorcycles_type;
-DROP TABLE IF EXISTS motorcycles;
 CREATE TABLE motorcycles(
 	id int PRIMARY KEY,
 	name varchar(255),
